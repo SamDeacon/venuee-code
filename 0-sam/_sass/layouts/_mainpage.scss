@@ -1,0 +1,23 @@
+body{
+    background-image: url('../images/misc/jpgsmall.jpg');
+}
+* {
+    font-family: helvetica;
+}
+
+.inbetweener{
+    color: white;
+    text-align: center;
+    margin: 1.5em 0;
+    font-weight: 700;
+}
+
+.standout-text{
+    font-size: 1.8em;
+}
+
+@media (max-width: 768px){
+    body{
+        overflow-x: hidden;
+    }
+}

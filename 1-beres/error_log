@@ -1,0 +1,11 @@
+[25-Oct-2015 09:18:38 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'verber'@'ip-107-180-41-52.ip.secureserver.net' (using password: YES) in /home/venuee/public_html/_site/submitCompanyData.php on line 21
+[25-Oct-2015 09:54:01 UTC] PHP Notice:  Undefined variable: link in /home/venuee/public_html/_site/submitCompanyData.php on line 34
+[25-Oct-2015 09:54:01 UTC] PHP Warning:  mysqli_affected_rows() expects parameter 1 to be mysqli, null given in /home/venuee/public_html/_site/submitCompanyData.php on line 34
+[25-Oct-2015 09:54:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/venuee/public_html/_site/submitCompanyData.php:34) in /home/venuee/public_html/_site/submitCompanyData.php on line 45
+[25-Oct-2015 09:54:32 UTC] PHP Notice:  Undefined variable: link in /home/venuee/public_html/_site/submitCompanyData.php on line 34
+[25-Oct-2015 09:54:32 UTC] PHP Warning:  mysqli_affected_rows() expects parameter 1 to be mysqli, null given in /home/venuee/public_html/_site/submitCompanyData.php on line 34
+[25-Oct-2015 09:54:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/venuee/public_html/_site/submitCompanyData.php:34) in /home/venuee/public_html/_site/submitCompanyData.php on line 45
+[25-Oct-2015 10:06:08 UTC] PHP Notice:  Undefined variable: address12 in /home/venuee/public_html/_site/submitCompanyData.php on line 19
+[25-Oct-2015 10:06:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/venuee/public_html/_site/submitCompanyData.php:19) in /home/venuee/public_html/_site/submitCompanyData.php on line 50
+[25-Oct-2015 10:06:38 UTC] PHP Notice:  Undefined variable: address12 in /home/venuee/public_html/_site/submitCompanyData.php on line 19
+[25-Oct-2015 10:06:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/venuee/public_html/_site/submitCompanyData.php:19) in /home/venuee/public_html/_site/submitCompanyData.php on line 54

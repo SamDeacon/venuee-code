@@ -1,0 +1,98 @@
+/********************
+2nd SECTION - CONTACT
+*********************/
+
+.section-contact{
+    background-color: $contact-bg;
+    color: $contact-dark;
+}
+
+
+@media (min-width: 700px) {
+.contact-container{
+    margin: 8px 15% 200px 15%;
+
+    font-size: 1.5em;
+    padding: 20px;
+    
+}
+
+
+    
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+textarea[name=message] {
+    resize: none;
+}
+
+.under_line input{
+    border: none;
+    padding-left: 15px;
+    background: none;
+
+}
+.contact-container textarea {
+    padding-left: 15px;
+    background: none;
+
+}
+.row.under_line {
+    border-bottom: 2px solid $contact-dark;
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.form_content{
+padding-top: 3%;
+
+
+}
+.contact-container .row{
+    margin: 0;
+}
+
+.submit_button{
+    background-color: $sitecolor;
+    border: none;
+    padding: 5px 25px;
+    color: white;
+    float: right;
+    font-size: 28px;
+    margin: 18px 0 80px 0;
+    &:hover{
+    background: darken($sitecolor, 20%);
+    }
+}
+
+
+.submit_button2{
+    background-color: none;
+    border: 2px solid $sitecolor;
+    padding: 5px 25px;
+    color: $sitecolor;
+    float: right;
+    font-size: 28px;
+    margin: 18px 0 80px 0;
+    &:hover{
+    background: $sitecolor;
+    color: $contact-bg;
+    }
+    
+}
+
+.contact_form_inner{
+    line-height: 35px;
+
+    
+}
+
+
+#message{
+width: 100%;
+}

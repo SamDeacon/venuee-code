@@ -1,0 +1,85 @@
+/********************
+MANAGE ACCOUNT
+*********************/
+
+.account-toggle-tabs{
+    color: white;
+
+
+padding: 0; 
+    
+
+
+
+li a{
+    width: 100%;
+background-color: #555;
+    color: white;
+}
+
+li a:hover{
+ background-color: $sitecolor;
+}
+
+
+
+li.active a, li.active a:focus {
+ background-color: $sitecolor;
+ color: white;
+}
+
+li.active a:hover {
+ background-color: $sitecolor;
+ color: white;
+}
+}
+
+@media(min-width: 450px){
+    #account-tab{
+    margin-left: 0;
+}
+}
+
+
+
+.event-img-wrap{
+    display: inline-block;
+    height: 270px;
+    width: 270px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    line-height: 100%;
+    
+}
+
+.event-img-wrap .hovereffect{
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.account-tabs{
+// border: 1px solid rgba(0,0,0,0.4);
+width: 85wv;
+
+    
+}
+
+.image-mainwrapper{
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.event-img-wrap{
+
+
+
+}
+
+
+.manage-account-tab{
+    background-color: gray;
+}

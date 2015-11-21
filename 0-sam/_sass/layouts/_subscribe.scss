@@ -1,0 +1,73 @@
+/********************
+2nd SUBSCRIBE PAGE
+*********************/
+.subscribe-form{
+    padding-top: 25px;
+    margin-top: 25px;
+}
+
+
+
+.subscribe-form input[type=text], .subscribe-form input[type=text]:focus {
+    padding: 10px;
+    color: $contact-dark;
+    line-height: 20px;
+    font-size: 1.3em;
+    
+
+}
+
+.subscribe-form input[type=submit]{
+    border: none;
+    border-radius: 3px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px;
+      box-shadow: 0 0 9px -2px rgba(0,0,0,0.7)
+}
+
+.subscribe-form input[type=submit]:hover{
+    background: $sitecolor;
+    color: white;
+}
+
+
+
+
+@media (min-width: 600px) {
+    .subscribe-text{
+    margin-top: 1%;
+}
+
+.subscribe-form{
+
+
+    
+    input[type=text]{
+        min-width: 25vw;
+    
+    }
+
+    
+}
+    
+}
+
+@media (max-width: 445px) {
+.subscribe-form{
+margin-left: -130px;
+    
+    }
+
+    
+}
+
+@media (max-width: 580px) {
+.section-download#subscribe{
+    margin: 5px 0;
+    background: linear-gradient($sitecolor 75%, white 37%);
+
+}
+
+    
+}

@@ -1,0 +1,98 @@
+/********************
+MENU - NAVBAR
+*********************/
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-top: 45px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 1;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 400px;
+  background-color:#555;
+}
+.carousel img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 400px;
+}
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.navbar-collapse.collapse{
+  padding: 15px;
+}
+
+._nav{
+    background-color: $sitecolor;
+    color: white;
+    border: none;
+    padding-left: 25px;
+    border-radius: 0;
+      box-shadow: 0 3px 9px -2px rgba(0,0,0,0.29)
+}
+
+
+.navbar-default .navbar-nav li a{
+  color: white;
+  font-weight: 600;
+}
+.navbar-wrapper .navbar{
+    border-radius: 0;
+}
+
+.navbar-header{
+    
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+@media (min-width: 768px) { /**** LARGE OVER 768px ****/
+
+
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+    margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+  }
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+
+
+} /**** END LARGE OVER 768px ****/
+@media (max-width: 768px) { /**** TABLET UNDER 768  ****/
+  
+
+} /**** END TABLET UNDER 768  ****/
+
+.top-login-navbar{
+  li a:hover{
+    background-color: rgba(0,0,0,0);
+    color: $sitecolor;
+  }
+  li a{
+    font-weight: 700;
+    color: white;
+  }
+}

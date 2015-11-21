@@ -1,0 +1,58 @@
+/********************
+CONTACT PART 2
+*********************/
+
+.section-contact-2 {
+    
+    textarea, input , h2, textarea{ 
+    background-color: $contact-bg;
+
+    color: $contact-dark;
+     }
+    
+    input[id=name], input[id=email] {
+    margin-bottom: 12px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid;
+     }
+    
+    
+    textarea{
+
+    border: 1px solid;
+    border-color: lighten($contact-dark, 25%);
+    padding: 6px;
+    font-size: 18px 
+    }
+
+}
+.section-contact-2{
+    background-color: $contact-bg;
+    padding: 20px 0 28px 0;
+
+}
+
+
+
+ 
+@media (min-width: 610px){
+    
+    .section-contact-2 .container{ 
+        padding-left: 10%;
+        padding-right: 10%;
+    }    
+    
+    
+}
+
+@media (max-width: 445px){
+    
+    .contact-form-override{ 
+margin: 0;
+width: 100%;
+    }    
+    
+    
+}
+

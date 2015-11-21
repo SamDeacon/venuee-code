@@ -1,0 +1,129 @@
+/********************
+1st SECTION - DOWNLOAD
+*********************/
+
+.inbetweener{
+    color: white;
+    text-align: center;
+    margin: 1.5em 0;
+    font-weight: 700;
+}
+
+
+.section-download{
+    margin: 5px 0;
+    background: linear-gradient($sitecolor 62%, white 37%);
+
+}
+
+
+
+
+
+.dl-text{
+    color: white;
+    padding: 3%;
+}
+
+.vcenter{
+     display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+#dl-phone{
+    float: right;
+    margin: 20px 0 15px 0;
+}
+
+.dl-icon-row img{
+    padding: 5px 5px 5px 0;
+    margin: 20px 10px 0 0;
+}
+
+.dl-text h3{
+    font-weight: 500;
+}
+.dl-text p{
+    font-weight: 100;
+    padding-right: 6%;
+}
+/*****  over 1360 *****/
+@media (min-width: 1380px) { 
+#dl-phone{
+    height: 700px;
+    
+}
+
+}/***** end  over 1360 *****/
+
+/*****  over 940px *****/
+@media (min-width: 940px) and (max-width: 1380px) { 
+#dl-phone{
+    height: 600px;
+    
+}
+}
+@media (min-width: 940px){
+.dl-text h3{
+    font-size: 2.9em;
+}
+
+.dl-text p{
+    font-size: 1.3em;
+}
+
+}/***** end  over 940px *****/
+
+
+/*****  over 940px *****/
+@media (max-width: 940px) { 
+#dl-phone{
+    height: 550px;
+    
+}
+
+.dl-text h3{
+    font-size: 2.9em;
+}
+
+.dl-text p{
+    font-size: 1.3em;
+}
+
+
+}
+
+
+@media (max-width: 600px) { /***** mobile <600px *****/
+
+.dl-text h3{
+    font-size: 2.0em;
+    margin-left: -99px;
+        color: white;
+    text-shadow:
+    -1px -1px 0 $sitecolor,
+    1px -1px 0 $sitecolor,
+    -1px 1px 0 $sitecolor,
+    1px 1px 0 $sitecolor;  
+}
+
+.dl-text p{
+    font-size: 1.0em;
+
+}
+    
+    
+    
+    .dl-icon-row img{
+    max-width: 48vw;
+    margin-right: 0;
+    }
+    .dl-icon-row{
+        float: right;
+        
+    }
+    
+}/***** end  mobile <600px *****/
+
+
