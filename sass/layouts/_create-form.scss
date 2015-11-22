@@ -1,0 +1,26 @@
+section#create-event{
+
+}
+
+
+.form-add-event-img{
+max-width: 50%;
+min-width: 260px;
+    
+}
+
+.profile-info-cont img{
+    max-width: 128px;
+    border-radius: 10%;
+
+}
+
+@media (min-width: 625px){
+
+.profile-info-cont>img, .profile-info-cont>div{
+    display: inline-block;
+}
+}
+
+
+

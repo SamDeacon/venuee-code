@@ -1,0 +1,78 @@
+.form-container-plain{
+    background-color: $contact-bg;
+    color: darken($contact-dark, 25%);
+    width: 100vw;
+}
+
+
+@media (min-width: 660px) {
+section.form-container-plain {
+    padding: 3% 4%;
+}
+
+.container{
+    max-width: 100%;
+}
+
+}
+
+@media (min-width: 890px) {
+section.form-container-plain {
+    padding: 4% 15%;
+}
+
+
+
+}
+
+
+.top-profile-cont {
+
+    display: flex;
+
+    justify-content: space-between;
+    padding-top: 12px;
+}
+.top-profile-cont h1,  .top-profile-nav{
+
+    display: inline-block;
+
+}
+
+.top-profile-cont h1{
+    font-size: 2.9em;
+}
+
+.form-container-plain h2{
+    font-size: 1.9em;
+    color: $sitecolor;
+}
+
+.top-profile-nav, .top-profile-nav ul li {
+
+
+        display: inline-block;
+        
+        ul{
+            padding: 0;
+            margin: 0;
+        }
+    li{
+    margin: 0 8px;
+
+    list-style: none;
+    font-weight: 700;
+    }
+    a{
+        color: inherit;
+    }
+}
+
+
+
+.form-button-confirm{
+  margin-bottom: 5%;
+}
+body{
+    padding: 0;
+}
