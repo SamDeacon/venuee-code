@@ -1,0 +1,23 @@
+{
+  "name": "venuee",
+  "version": "0.0.1",
+  "description": "venuee app",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamDeacon/venuee-code.git"
+  },
+  "author": "Sam Deacon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SamDeacon/venuee-code/issues"
+  },
+  "homepage": "https://github.com/SamDeacon/venuee-code#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.1.0"
+  }
+}
