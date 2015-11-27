@@ -1,0 +1,189 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:		Venuee
+Developed By:	PP
+Date:	22/11/2015
+
+*/
+/*------------------------------------------------------------------*/
+.btn-default {
+	color: #fff;
+	text-align: center;
+	font: 14px/18px "Roboto", "Arial", "Helvetica", sans-serif;
+	padding: 16px 26px;
+	border-radius: 0;
+	border: 0;
+	background: #a7a7a7;
+	text-transform: capitalize;
+	-webkit-transition: all .6s ease;
+	transition: all .6s ease;
+}
+
+.btn-default .fa {
+	font-size: 23px;
+	margin: 0 11px 0 -11px;
+}
+
+
+.btn-default:focus,
+.btn-default.active,
+.btn-default:hover {
+	background: #db5940;
+	color: #fff;
+	outline: none;
+}
+
+
+.our-team.add {
+	margin-bottom: 30px;
+}
+
+
+.team-col .over {
+	display: block;
+	position: relative;
+	position: relative;
+	z-index: 1;
+}
+
+.team-col .over:before {
+	position: absolute;
+	content: "";
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.team-col .over:before {
+	background: rgba(0, 0, 0, .4);
+	z-index: -1;
+	display: none;
+}
+
+.team-col .img-box {
+	border: 1px solid #cecece;
+	overflow: hidden;
+	margin: 0 0 10px;
+}
+
+.team-col .btn-default {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 148px;
+	margin: -20px 0 0 -74px;
+	background: #db5940;
+	font-weight: 600;
+	letter-spacing: 2px;
+	padding: 11px 6px 11px 6px;
+	display: none;
+}
+
+.team-col .btn-default:hover {
+	background: #363636;
+}
+
+.team-col .btn-default .fa {
+	display: inline-block;
+	vertical-align: middle;
+	margin: -4px 1px 0 4px;
+	font-size: 14px;
+}
+
+.team-col:hover .over:before {
+	display: block;
+}
+
+.team-col:hover .btn-default {
+	display: block;
+}
+
+/*------------------------------------------------------------------
+ Team Info / .team-info
+-------------------------------------------------------------------*/
+
+.team-info {
+	border: 1px solid #cecece;
+	padding: 10px 16px 4px;
+	text-align: center;
+	line-height: 24px;
+}
+
+.team-info .team-title {
+	overflow: hidden;
+	padding: 0 0 3px;
+	margin: 0 0 12px;
+	border-bottom: 1px solid #efeef1;
+}
+
+.team-info .team-title h2 {
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: 600;
+}
+
+.team-info .team-title h2 a {
+	color: #333;
+}
+
+.team-info .team-title h2 a:focus,
+.team-info .team-title h2 a:hover {
+	text-decoration: none;
+	outline: none;
+	color: #db5940;
+	-webkit-transition: all .6s ease;
+	transition: all .6s ease;
+}
+
+.team-info .team-title .designation {
+	display: block;
+}
+
+.team-info p {
+	margin: 0 0 11px;
+}
+
+/*------------------------------------------------------------------
+Post Socials / .post-socials
+-------------------------------------------------------------------*/
+
+.post-socials {
+	text-align: center;
+	overflow: hidden;
+}
+
+.post-socials li {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 4px;
+	padding: 0;
+}
+
+.post-socials li a {
+	display: block;
+	border-radius: 50%;
+	border: 1px solid #555;
+	width: 29px;
+	height: 29px;
+	color: #555;
+	font-size: 15px;
+	line-height: 24px;
+	-webkit-transition: all .6s ease;
+	transition: all .6s ease;
+}
+
+.post-socials li a .fa {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.post-socials li a:hover {
+	background: #db5940;
+	border-color: #db5940;
+	color: #fff;
+}
+
